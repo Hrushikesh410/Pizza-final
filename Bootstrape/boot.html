@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="boot.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body class="full">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <img src="pizza.png" alt="Bootstrap" width="50" height="54">
+      <a class="navbar-brand" href="#">The Pizza Cutter </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Menu</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Email</a></li>
+              <li><a class="dropdown-item" href="#">Call</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1621070766841-a7bf1ee96df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="..." height="600">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>The Pizza Cutter</h3>
+          <p>We Provide Healthy and organic Pizzas.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.pixabay.com/photo/2015/04/28/21/20/pizza-744405_1280.jpg" class="d-block w-100" alt="..." height="600">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>The Pizza Cutter</h3>
+          <p>We are very affordable and delicious.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="bk3.jpg" class="d-block w-100" alt="..." height="600">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>The Pizza Cutter</h3>
+          <p>we provide free and fast delivery.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section class="secondbk">
+    <div class="card-group ">
+      <div class="card">
+        <img src="delivery.png" class="card-img-top w-50" alt="..." height="200">
+        <div class="card-body">
+          <h3 class="card-title">Home Delivery</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="pizza copy.png" class="card-img-top w-50" alt="..." height="200">
+        <div class="card-body">
+          <h3 class="card-title">Customization</h3>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="bulk.png" class="card-img-top w-50" alt="...">
+        <div class="card-body">
+          <h3 class="card-title">Bulk Orders</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+            content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  </section>
+  <section class="third">
+    <div class="row">
+      <div class="col">
+        
+        <div class="special">
+        <h2 class="mhed">Special traditional recipes since 2014</h2>
+              <h3 class="hed">We only use the finest Italian ingredients for our takeaway pizza</h3>
+              <!-- <img src="quotes.png" alt=""> -->
+              
+              <p class="mat">Our pizza dough is prepared fresh in store everyday and left for 24 hours to naturally mature before use. The Italian flavor is in the cooking too. The 400°C heat in our custom-made, log-fired Italian pizza oven gives our pizzas a special flavor. The best things to know about this recipe are that it doesn’t need to be kneaded and the yeast doesn’t need to be proofed. You simply dump and stir the whole mess together in one bowl (this will take less than 5 minutes of your time) and go on with your day; it will be ready when you are. If you get started with it an hour late or early on either end, you should find the pizza dough just fine to use. It rises at room temperature; it doesn’t take up space in your fridge or require time to warm up; it doesn’t need to be babysat. , not the other way around, thank goodness.</p>
+              <img class="scale-with-grid" src="https://www.taste-pizza.co.uk/wp-content/uploads/2016/09/home_pizza2_pic1.png" alt="home_pizza2_pic1" >
+            </div>
+      </div>
+      <div class="col">
+        <img src="side.jpg" alt="" class=" img-fluid">
+      </div>
+    </div>
+  </section>
+  <section class="menu">
+    <h2>Our Menu</h2>
+    <p class="ll">We aim to provide the quickest delivery service, so sit back, relax and browse our web menu in the comfort of your own home. Our assurance of fresh quality food and speedy delivery will definitely provide a memorable dining experience. We at Taste Pizza are amongst the top takeaways and restaurants in Whitburn offering great fast food at affordable prices.</p>
+    <div class="row">
+      <div class="col">
+        <img src="mar.png" alt="">
+        <h4 class="types">The Veggie</h4>
+        <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <button class="btn">Add to Cart</button></div>
+      <div class="col">
+        <img src="tan.png" alt="">
+                <h4 class="types">Barbeque chicken</h4>
+                <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn">Add to Cart</button>
+      </div>
+      <div class="col">
+        <img src="pap.png" alt="">
+                <h4 class="types">Corn Pizza</h4>
+                <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn">Add to Cart</button>
+      </div>
+      <div class="col">
+        <img src="mix.png" alt="">
+                <h4 class="types">Chicken loaded</h4>
+                <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col"><img src="mar.png" alt="">
+        <h4 class="types">Margarita</h4>
+        <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <button class="btn">Add to Cart</button>
+      </div>
+      <div class="col">
+        <img src="pap.png" alt="">
+                <h4 class="types">Paporoni </h4>
+                <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn">Add to Cart</button>
+      </div>
+      <div class="col">
+        <img src="mix.png" alt="">
+                <h4 class="types">Mixed Pizza</h4>
+                <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn">Add to Cart</button>
+      </div>
+      <div class="col">
+        <img src="tan.png" alt="">
+                <h4 class="types">Veg Overloaded</h3>
+                <p class="l">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <button class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+  
+  <section class="last">
+    <h2 class="q">
+      Things they say about Pizza
+    </h2>
+    <div class="row">
+      <div class="col">
+        <img src="quotes.png" alt="" class="img-fluid">
+        "You can't make everyone happy. You're not pizza." - Anonymous</div>
+      <div class="col">
+        <img src="quotes.png" alt="" class="img-fluid">“You know what? Part of me just wants to eat pizza and go to sleep.” Gwen Stefani</div>
+      <div class="col">
+        <img src="quotes.png" alt="" class="img-fluid">"Beauty comes in all shapes and sizes. Small, large, circle, square, thin crust, thick crust, stuffed crust, extra toppings." - Anonymous</div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="foot text-bg-dark ">
+      <h2>Contact us</h2>
+      <li>12-25-354 Narayanaguda Hyderabad Telangana India</li>
+      <img src="facebook.png" alt=""><span>Thepizzacutter</span>
+      <img src="insta.png" alt=""><span>The Pizza Cutter</span>
+      <p>Avalable On</p>
+      <img src="swiggy.png" alt="">
+      <img src="zom.png" alt="">
+    </div>
+
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

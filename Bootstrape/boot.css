@@ -1,0 +1,144 @@
+.full{
+    font-family: cursive;
+}
+.navbar-brand {
+    font-family: cursive ;
+    padding-top: 24px;
+    /* font-size: 10px; */
+}
+.navbar-nav{
+    padding-left: 290px;
+    font-size: 20px;
+}
+.secondbk .card{
+    align-items: center;
+    opacity: 0.7;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+.card img{
+    padding: 20px;
+}
+.secondbk {
+    background: url(bk1.jpg) no-repeat center center/cover;
+}
+.card-group{
+    padding: 10px;
+}
+.thirdbk{
+    background: url(oog.png) no-repeat center center/cover;
+    height: 700px;
+    /* opacity: 1; */
+}
+.thirdbk .card{
+    align-items: center;
+    opacity: 0.9;
+    margin: 10px;
+    border-radius: 20px;
+    background: url(oog.png) ;
+    
+    color: white;
+    padding: 15px;
+}
+
+.last{
+    background-image: url(og1.jpg);
+    display: block;
+}
+.last h2{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.row{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}
+.last .row img{
+    height: 100px;
+    width: 80px;
+    display: block;
+    
+}
+.last .row{
+    padding-bottom: 30px;
+}
+.foot h2{
+    text-align: center;
+}
+.foot {
+    padding: 20px;
+}
+.third{
+    background: url(og3.jpg)no-repeat center center/cover;
+    padding: 20px;
+    
+    
+}
+.col img {
+    height: 650px;
+    width: 450px;
+    /* border: 2px solid black; */
+    padding: 30px 5px 30px 0px ;
+    /* margin: 0px 0px 0px 100px; */
+    border-radius: 60px;
+    
+}
+.col .hed{
+    padding: 20px;
+}
+.special{
+    /* padding: 50px; */
+    font-family: cursive;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 50px;
+    
+}
+.special .hed{
+    padding-top: 30px;
+}
+.special .mat{
+    /* padding: 50px 190px 50px 150px; */
+    margin: 0px 30px 0px 30px;
+    font-size: 15px;
+}
+.special img{
+    height: 300px;
+    width: 200px;
+}
+.menu{
+    background-image: url(oog.png);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.menu .row img{
+    height: 160px;
+    width: 110px;
+}
+.menu .row{
+    font-size: 15px;
+}
+.menu .btn{
+    color: white;
+}
+.menu .col img{
+    transition: transform .3s ease;
+    overflow: hidden;
+}
+.menu .col:hover img{
+    transform: scale(1.2);
+}
+.menu .ll{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#order{
+    text-align: center;
+    /* background: url(og1.jpg)no-repeat center center/cover; */
+}
